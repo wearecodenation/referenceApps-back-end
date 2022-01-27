@@ -10,6 +10,13 @@ const app = (argsArr) => {
         movie.add();
         console.log(movie.list());
         break;
+      case "addMulti":
+        const movie1 = new Movie(argsArr[3], argsArr[4]);
+        const movie2 = new Movie(argsArr[5], argsArr[6]);
+        movie1.add();
+        movie2.add();
+        console.log(movie1.list());
+        break;
       default:
         console.log("Incorrect command");
         break;
