@@ -14,7 +14,7 @@ class Movie {
       movieArr = [];
     }
     movieArr.push(this);
-    const strArr = await JSON.stringify(movieArr);
+    const strArr = JSON.stringify(movieArr);
     fs.writeFileSync("./storage.json", strArr);
   }
   async list() {
