@@ -1,15 +1,12 @@
 const { DataTypes } = require("sequelize");
 const { sequelize } = require("../db/connection");
 
-const Movie = sequelize.define("Movie", {
-  title: {
+const Actor = sequelize.define("Actor", {
+  name: {
     type: DataTypes.STRING,
     allowNull: false,
     unique: true,
   },
-  actor: {
-    type: DataTypes.INTEGER,
-  },
 });
 
-module.exports = Movie;
+module.exports = Actor;
