@@ -16,7 +16,8 @@ exports.listMovies = async (filterObj) => {
   try {
     if (filterObj) {
       if ("actor" in filterObj) {
-        filterObj.actor = await listActors({ name: filterObj.actor }).id;
+        const actor = await listActors({ name: filterObj.actor });
+        filterObj.actor = actor.id;
       }
       return await Movie.findOne({ where: filterObj });
     } else {
