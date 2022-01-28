@@ -9,6 +9,13 @@ class Movie {
   async list(collection) {
     return await collection.find({}).toArray();
   }
+  async update(collection, key, filter) {
+    console.log(this);
+    await collection.updateOne({ [key]: filter }, { $set: this });
+  }
+  async delete(collection) {
+    await collection.deleteOne(this);
+  }
 }
 
 module.exports = Movie;
