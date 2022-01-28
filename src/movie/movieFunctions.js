@@ -19,3 +19,19 @@ exports.listMovies = async (key, filter) => {
     console.log(error);
   }
 };
+
+exports.updateMovie = async (filterObj, updateObj) => {
+  try {
+    await Movie.updateOne(filterObj, { $set: updateObj });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+exports.deleteMovie = async (deleteObj) => {
+  try {
+    await Movie.deleteOne(deleteObj);
+  } catch (error) {
+    console.log(error);
+  }
+};
