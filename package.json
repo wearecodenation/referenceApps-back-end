@@ -1,8 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "## Usage",
+  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -13,9 +13,18 @@
     "mysql2": "^2.3.3",
     "sequelize": "^6.14.1",
     "sequelize-mock": "^0.10.2",
-    "yargs": "^17.3.1"
+    "yargs": "^17.4.1"
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoltonAndrew/referenceApps.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BoltonAndrew/referenceApps/issues"
+  },
+  "homepage": "https://github.com/BoltonAndrew/referenceApps#readme"
 }
