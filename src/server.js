@@ -1,5 +1,6 @@
 // npm i express mongoose dotenv
-require("./db/connection");
+require("./db/connection"); 
+// - run connection file straight away 
 const express = require("express");
 const movieRouter = require("./movie/movieRoutes");
 const app = express();
