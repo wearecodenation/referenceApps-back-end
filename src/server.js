@@ -1,3 +1,4 @@
+// npm i express mongoose dotenv
 require("./db/connection");
 const express = require("express");
 const movieRouter = require("./movie/movieRoutes");
