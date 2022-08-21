@@ -1,4 +1,4 @@
-// console.log("hello world") // - 5 min activity 
+console.log("hello world") // - 5 min activity 
 // node index.js
 
 //look at brief again - CLI 
@@ -7,31 +7,31 @@
 //process was being launched. 
 //The first element will always contains the same value as process.execPath. 
 
-// console.log(process.argv)
+console.log(process.argv)
 //Look at output 
 
 // start to build logic How can we find Alex in the Array?
 // === so we need to check for the words and datatypes 
-// if (process.argv[2] === 'Alex') {
-//     console.log("Correct")
-// } else {
-//     console.log("Not an Alex")
-// } 
+if (process.argv[2] === 'Alex') {
+    console.log("Correct")
+} else {
+    console.log("Not an Alex")
+} 
 
 // Bad way of writing it  
 //What is a parameter?
 // Empty var until I pass something into it 
 // / how do I call this function with the parameter?
 
-// const app = (argv) => {
-//     if (process.argv[2] === 'Alex') {
-//         console.log("Correct")
-//      } else {
-//         console.log("Not an Alex")
-//      } 
-// }
+const app = (argv) => {
+    if (process.argv[2] === 'Alex') {
+        console.log("Correct")
+     } else {
+        console.log("Not an Alex")
+     } 
+}
 
-// app(process.argv) 
+app(process.argv) 
 
 //switch if / else to swtich case
 // The if-else statement checks for equality as well as for logical expression. 
