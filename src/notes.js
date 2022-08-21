@@ -101,7 +101,7 @@ if(yargs.argv.actor) {
 // Look at the brief and problem solve it 
 // Targeted data = —tittle etc   utils should not change in anyway 
 
-// Build app without adding detail 
+// Build basic app without adding detail 
 
 // Instead of array index using dot notation 
 
@@ -109,3 +109,7 @@ if(yargs.argv.actor) {
 // Before push what haven’t we done? src control button 
 
 // gitignore in base directory
+
+
+// Example command in README 
+// node src/app.js --command “value
