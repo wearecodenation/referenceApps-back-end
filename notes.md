@@ -61,31 +61,29 @@ const yargs = require("yargs");
 Console.log(yargs.argv)
 ```
 
-We have replaced process.argv with yargs 
+* We have replaced process.argv with yargs 
 
 ```
 Node src/app.js Alex
 ```
 
-What datatype is the log?
+- What datatype is the log?
 
-key value pairs 
-_ arugments we have added 
-and 
-$0 means node 
+- key value pairs  arugments we have added to oue termial command $0 means node 
 
 ```
 Node src/app.js Spiderman 
 ```
 
-Spiderman appears in the array in _ key
+* Spiderman appears in the array in _ key
 
-We are going to change the datatype
-So we can work with objects and dot notation 
+- We are going to change the datatype
 
-I can create key value Pairs in the terminal 
+- So we can work with objects and dot notation 
 
-Do this with -- title Spiderman 
+- I can create key value Pairs in the terminal 
+
+* Do this with -- title Spiderman 
 
 ```
 Node src/app.js —title Spiderman 
@@ -93,17 +91,20 @@ Node src/app.js —title Spiderman
 
 #### Why Yargs
 
-Gives user an indicator of what they are inputting 
+* Gives user an indicator of what they are inputting 
 
-How can I change line 3 to just return 
-The actors name?
+- How can I change line 3 to just return 
+
+- The actors name?
+
 ```
 Yargs.argv.actor?
 ```
-Using objects so we use dot notation syntax 
+- Using objects so we use dot notation syntax 
 
 * don't pass value to actor key
-what will log for actor now
+
+- what will log for actor now
 * returns true
 
 ```
@@ -120,6 +121,7 @@ if(yargs.argv.actor) {
 
 ```
 Node src/app.js  -- title Spiderman  --actor “Dave Smith”
+
 ```
 Its Dave Smith
 
@@ -129,18 +131,22 @@ Node src/app.js  -- title Spiderman
 
 
 This helps us do
-Node src/app.js   -- add  title Spiderman  --actor “Dave Smith”
 
-``
+```
+Node src/app.js   -- add  title Spiderman  --actor “Dave Smith”
+```
+
+```
 Console.log(yargs.argv) 
 ``` 
 
 ### Return to brief 
 
-Look at the brief and problem solve it 
+* Look at the brief and problem solve it 
 
 * Build app without adding detail 
+
 * Build template
-* remind them. they using a object now, not an array
-dot notation syntax
+
+* remind them. they using a object now, not an array dot notation syntax
  
