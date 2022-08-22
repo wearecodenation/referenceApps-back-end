@@ -1,4 +1,4 @@
-console.log("hello world") // - 5 min activity 
+`console.log("hello world")` // - 5 min activity 
 node index.js
 
 look at brief again - CLI 
@@ -13,7 +13,8 @@ Look at output
 start to build logic How can we find Alex in the Array?
  === so we need to check for the words and datatypes 
  
-`if (process.argv[2] === 'Alex') {
+`
+if (process.argv[2] === 'Alex') {
     console.log("Correct")
 } else {
     console.log("Not an Alex")
@@ -25,7 +26,8 @@ What is a parameter?
 Empty var until I pass something into it 
 how do I call this function with the parameter?
 
-`const app = (argv) => {
+`
+const app = (argv) => {
     if (process.argv[2] === 'Alex') {
         console.log("Correct")
      } else {
@@ -33,14 +35,16 @@ how do I call this function with the parameter?
      } 
 }
 
-app(process.argv)`
+app(process.argv)
+`
 
 switch if / else to swtich case
 The if-else statement checks for equality as well as for logical expression. 
 On the other hand, switch checks only for equality.
 A switch statement works much faster than an equivalent if-else ladder. 
 
-`const app2 = (argv)  => {
+`
+const app2 = (argv)  => {
     switch(argv[2]){
         case "Alex":
             console.log('correct')
@@ -57,10 +61,12 @@ A switch statement works much faster than an equivalent if-else ladder.
     }
 }
 
-app2(process.argv)`
+app2(process.argv)
+`
 Rather than just logging this lets store it in an const or a var
 
-`const app3 = (argv)  => {
+`
+const app3 = (argv)  => {
     switch(argv[2]){
         case "Alex":
             const name = argv[2]
@@ -77,7 +83,8 @@ Rather than just logging this lets store it in an const or a var
     }
 }
 
-app3(process.argv)`
+app3(process.argv)
+`
 
 open reference app 
 start repo 
