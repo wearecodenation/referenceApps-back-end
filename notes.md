@@ -111,7 +111,7 @@ Yargs.argv.actor?
 Node src/app.js  -- title Spiderman  — actor
 ```
 
-What if I did this?
+- What if I did this?
 
 ```
 if(yargs.argv.actor) { 
@@ -123,14 +123,12 @@ if(yargs.argv.actor) {
 Node src/app.js  -- title Spiderman  --actor “Dave Smith”
 
 ```
-Its Dave Smith
 
 ```
 Node src/app.js  -- title Spiderman 
 ```
 
-
-This helps us do
+- This helps us do
 
 ```
 Node src/app.js   -- add  title Spiderman  --actor “Dave Smith”
