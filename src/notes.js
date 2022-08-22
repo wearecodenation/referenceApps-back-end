@@ -76,7 +76,7 @@ console.log(Yargs.argv.actor)
 // What if I did this?
 
 if(yargs.argv.actor) { 
-	console.log(“its “ + yargs.argv.actor)
+	console.log('its ' + yargs.argv.actor)
 }
 
 // Node src/app.js  -- title Spiderman  — actor
@@ -92,21 +92,21 @@ if(yargs.argv.actor) {
 // This helps us do
 // Node src/app.js   -- add  title Spiderman  --actor “Dave Smith”
 
-// Console.log(yargs.argv)  
+Console.log(yargs.argv)  
 
-// If (yargsObj.add) {
+if (yargsObj.add) {
 
-// } 
+} 
 
 // Look at the brief and problem solve it 
-// Targeted data = —tittle etc   utils should not change in anyway 
+// Targeted data = —tittle etc utils should not change in anyway 
 
 // Build basic app without adding detail 
 
 // Instead of array index using dot notation 
 
 // Make repo 
-// Before push what haven’t we done? src control button 
+// Before push what haven’t we done?src control button 
 
 // gitignore in base directory
 
