@@ -1,14 +1,16 @@
 
 # Yargs lesson
 
-- go through solution from morning activity
+- Go through solution from morning activity
 
-- discuss the power of npm libraries 
+- Discuss the power of npm libraries 
+
 - Make new repo
 
 - npm were we going to use is called yargs - this libary is going to change the data type of argv 
 
 - The brief is the same as this morning 
+
 - You guys are going to built it from scratch
 
 - I am going to show you how it works 
@@ -20,40 +22,39 @@ Instead
 * Open new folder
 * create repo in git and initialise project
 
-What command do I use 
+- What command do I use 
 
 ```
 npm init -y
 ```
--y = yes to all options 
+* -y = yes to all options 
 
 * show package.json
-Instructions to anyone downloading My repo 
+- Instructions to anyone downloading My repo 
 
-Houses any npm libs we’ve installed in
-Package.json 
+- Houses any npm libs we’ve installed in Package.json 
 
-We are using yargs
+- We are using yargs
 
 ```
 npm I yargs 
-``
+```
+
 * Show dependencies 
 
-What folder does my bus logic go in?
+- What folder does my bus logic go in?
 
 ```
 src directory
 app.js 
-
-Utils 
+utils 
 Index.js 
 ```
 
-npm website 
- * Explain how to use it 
+* npm website 
+* Explain how to use it 
 
- * Examples unnecessary over complication - everything there library does 
+* Examples unnecessary over complication - everything there library does 
 
 ```
 const yargs = require("yargs");
