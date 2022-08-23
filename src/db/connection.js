@@ -5,7 +5,7 @@ const client = new MongoClient(process.env.MONGO_URI);
 
 const connection = async () => {
   try {
-    //the client gibves 
+    //the client giveds us access to the the mongoDb methods
     await client.connect();
     //declair the database inside my cluster
     //cluster for mongodb that contains db
