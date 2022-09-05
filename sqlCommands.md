@@ -6,6 +6,9 @@ INSERT INTO movies VALUES ('Spiderman3', 'Dan Smith');
 -- READ 
 SELECT  * FROM movies; 
 
+
+----- TASK
+
 -- Update 
 UPDATE movies
 SET title = 'updated title', actor = 'updated actor'
