@@ -76,6 +76,37 @@ app3(process.argv)
 ```
 open reference app start repo
 
+```
+const movie = argsArr[3]
+console.log(movie +' is stored')
+
+```
+
+how are we going to store this in a array - remeber breif
+```
+const movie = [argsArr[3]]
+console.log(movie) 
+```
+
+how can we store the optional information?
+
+```
+const movie = [argsArr[3], argsArr[4]]
+console.log(movie) 
+```
+
+multiple words
+```
+node src/app.js add Superman David Smith 
+```
+
+multiple words
+```
+node src/app.js add Superman "David Smith"
+```
+
+
+
 
 
 
